@@ -8,7 +8,14 @@
 
 ### **Python + libs:**
 
-lang | alg1 | alg2 | alg3
+mode | alg1 | alg2 | alg3
 :----|:----:|:----:|:----
 without libs | 18.3 |
 Cython | 0.23 
+
+lang | alg1 | alg2 | alg3
+:----|:----:|:----:|:----
+best pyt |
+C# | 
+C++ |
+другие языки
