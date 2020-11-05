@@ -26,6 +26,6 @@ Numba(with indication types) |
 lang | alg1 | alg2 | alg3 | alg4
 :----|:----:|:----:|:----:| :----:
 best pyt|
+C++ (GCC Compiler)|  |  |  | 17.81
 C#|
-C++| no |  no  | no |17.8 ms (GCC Compiler)
 другие языки |
