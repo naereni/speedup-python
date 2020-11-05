@@ -52,8 +52,7 @@ def bubble_sort(nums: list):
     return nums
 
 
-# cProfile.run('fib(40)')
-# cProfile.run('list_prime_num(5000)')
-# cProfile.run('fac(100000)')
-
+cProfile.run('fib(40)')
+cProfile.run('list_prime_num(5000)')
+cProfile.run('fac(100000)')
 cProfile.run('bubble_sort(array_nums(10000))')
