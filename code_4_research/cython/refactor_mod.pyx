@@ -1,4 +1,6 @@
-### main file of cython code
+'''
+Python code with Cython refactoring
+''' 
 
 # fibonacci numbers
 cpdef double fib(double n):
