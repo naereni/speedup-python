@@ -23,17 +23,9 @@ Numba(with indication types) |
 
 ### **'unknown' vs statically typed languages**
 
-<<<<<<< HEAD
 lang | alg1 | alg2 | alg3
 :----|:----:|:----:|:----
 best pyt|
 C#|
 C++| no |  no  |  17.8 ms (GCC Compiler)
-=======
-          lang | alg1 | alg2 | alg3
-          |:----|:----:|:----:|:----|
-best pyt  |    |      |      |
-C#        |    |       |     | 
-C++       | no |  no  |  no  |  17.8 ms (GCC Compiler)
->>>>>>> a8abcad1145f6cf42b8aa0765893a8730945d253
 другие языки |
