@@ -10,13 +10,13 @@
 
 ### **Python + libs:**
 
-mode | alg1 | alg2 | alg3 | alg4
-:----|:----:|:----:|:----:|:----:|
-vanila | 58.62 | 0.108 | 3.107 | 7.256
-PyPy3 | 10.09 | 0.032 | 10.82 | 0.239
-Cython(primordial) | 7.562 | 0.063 | 3.329 | 4.577
-Cython(refactor) | 0.341 | 0.005 | 9e-5 | 1.370
-Numba(only decorator) |
+mode                         | alg1  | alg2  | alg3  | alg4
+:----                        |:----: |:----: |:----: |:----:|
+vanila                       | 58.62 | 0.108 | 3.107 | 7.256
+PyPy3                        | 10.09 | 0.032 | 10.82 | 0.239
+Cython(primordial)           | 7.562 | 0.063 | 3.329 | 4.577
+Cython(refactor)             | 0.341 | 0.005 | 9e-5  | 1.370
+Numba(only decorator)        |
 Numba(with indication types) |
 
 ---------------------------------------------
@@ -25,7 +25,7 @@ Numba(with indication types) |
 
 lang | alg1 | alg2 | alg3
 :----|:----:|:----:|:----
-best pyt |
-C# | 
-C++ |
+best pyt|
+C#|
+C++| no |  no  |  17.8 ms (GCC Compiler)
 другие языки |
