@@ -1,17 +1,18 @@
-# Измерение скорости Python со стороними методами ускорения в сравнении с статически типизируемыми языками
+# Speed measurements modifications to Python with statically typed languages
 
-### Использующийся алгоритмы:
-1. Числа Фибоначи(40)
-2. Список простых чисел(5000)
-3. Факториал(100000)
-4. Сортировка пузырьком(10000)
+### Algorithms used:
+1. Fibonacci Numbers(40)
+2. List of Prime numbers(5000)
+3. Factorial(100000)
+4. Bubble sort(10000)
 
 --------------------------------------------------------
 
 ### **Python + libs:**
+#### table by [me](https://github.com/NeonDaisy)
 
-mode                | alg1  | alg2  | alg3  | alg4
-:----               |:----: |:----: |:----: |:----:|
+mode                | alg1  | alg2  | alg3  | alg4|
+:----               |:----: |:----: |:----: |:---:|
 vanila              | 58.62 | 0.108 | 3.107 | 7.256
 PyPy3               | 10.09 | 0.032 | 10.82 | 0.239
 Cython(primordial)  | 7.562 | 0.063 | 3.329 | 4.577
