@@ -21,12 +21,12 @@ Numba(decorator)    | 0.623 | 0.018 | 0.114 | 1.823
 
 --------------------------------------------------------
 
-### **'unknown' vs statically typed languages**
+### **best Python mode vs statically typed languages**
 #### table by [dereason](https://github.com/dereason)
 
 lang | alg1 | alg2 | alg3 | alg4
 :----|:----:|:----:|:----:| :----:
-best pyt|
+BPM  |
 C++ (GCC Compiler)|  |  |  | 17.81
-C#|
-другие языки |
+C#   |
+other lang |
