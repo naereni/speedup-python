@@ -27,6 +27,6 @@ Numba(decorator)    | 0.623 | 0.018 | 0.114 | 1.823
 lang | alg1 | alg2 | alg3 | alg4
 :----|:----:|:----:|:----:| :----:
 BPM  |
-C++ (GCC Compiler)|  |  |  | 17.81
+C++ (GCC Compiler)|  |  |  | 0.178
 C#   |
 other lang |
