@@ -81,7 +81,7 @@ def binary_search(nums: list, value: int):
     else:
         return mid
 
-array_nums = array_nums(10000001, True)
+array_nums = array_nums(100, True)
 nums = array_nums[0]
 print(nums[0])
 search_for = nums[0]
