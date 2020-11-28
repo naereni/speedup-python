@@ -9,7 +9,7 @@
 --------------------------------------------------------
 
 ### **Python + libs:**
-#### table by [me](https://github.com/NeonDaisy)
+#### table by [me](https://github.com/Naereni-12)
 
 mode                | alg1  | alg2  | alg3  | alg4|
 :----               |:----: |:----: |:----: |:---:|
