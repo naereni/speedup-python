@@ -26,7 +26,6 @@ from numba import njit
 # list of Prime numbers up to a number n
 @njit
 def list_prime_num(n: int):
-    # check 
     def is_prime(n: int):
         for i in range(2, n):
             if n % i == 0:
@@ -80,7 +79,8 @@ def bubble_sort(nums: list):
 bubble_sort(array_nums(10000))
 '''
 
-#timeit.timeit(fibonacci)
+
+timeit.timeit(fibonacci)
 timeit.timeit(list_prime_num)
 timeit.timeit(factorial)
 timeit.timeit(bubble_sort)
