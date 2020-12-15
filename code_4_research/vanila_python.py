@@ -57,38 +57,8 @@ def bubble_sort(nums: list) -> list:
     return nums
 
 
-def gen_list():
-    big_list = []
-    x = 1
-    while len(big_list) != 10000000:
-        big_list.append(x)
-        x += 1
-    return big_list
 
-
-def binary_search(nums: list, value: int):
-    mid = len(nums) // 2
-    low = 0
-    high = len(nums) - 1
-    while nums[mid] != value and low <= high:
-        if value > nums[mid]:
-            low = mid + 1
-        else:
-            high = mid - 1
-        mid = (low + high) // 2
-    if low > high:
-        return "No value"
-    else:
-        return mid
-
-array_nums = array_nums(100, True)
-nums = array_nums[0]
-print(nums[0])
-search_for = nums[0]
-cProfile.run('print(binary_search(nums, search_for))')
-
-# cProfile.run('fib(40)')
-# cProfile.run('list_prime_num(5000)')
-# cProfile.run('fac(100000)')
-# cProfile.run('bubble_sort(array_nums(10000), False)')
-# cProfile.run('''''')
+cProfile.run('fib(40)')
+cProfile.run('list_prime_num(5000)')
+cProfile.run('fac(100000)')
+cProfile.run('bubble_sort(array_nums(10000), False)')
