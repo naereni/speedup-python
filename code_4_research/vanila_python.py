@@ -36,16 +36,11 @@ def fac(n: int) -> int:
 
 
 # auxiliary function for sorting algorithm
-def array_nums(length: int, sort: bool) -> list:
+def array_nums(length: int) -> list:
     raw_nums = [-5]
     for i in range(1, length):
         raw_nums.append(random.randint(0, 1000000))
-    if sort:
-        raw_nums.sort()
-        random_num = random.choice(raw_nums)
-        return raw_nums, random_num
-    else:
-        return raw_nums 
+    return raw_nums 
 
 
 # yes yes the most stupid version of bubble sort
@@ -61,4 +56,4 @@ def bubble_sort(nums: list) -> list:
 cProfile.run('fib(40)')
 cProfile.run('list_prime_num(5000)')
 cProfile.run('fac(100000)')
-cProfile.run('bubble_sort(array_nums(10000), False)')
+cProfile.run('bubble_sort(array_nums(10000))')
