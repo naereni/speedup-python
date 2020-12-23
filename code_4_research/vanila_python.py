@@ -37,7 +37,7 @@ def fac(n: int) -> int:
 
 # auxiliary function for sorting algorithm
 def array_nums(length: int) -> list:
-    raw_nums = [-5]
+    raw_nums = []
     for i in range(1, length):
         raw_nums.append(random.randint(0, 1000000))
     return raw_nums 
@@ -52,8 +52,18 @@ def bubble_sort(nums: list) -> list:
     return nums
 
 
+def selection_sort(nums):  
+    for i in range(len(nums)):
+        lowest_value_index = i
+        for j in range(i + 1, len(nums)):
+            if nums[j] < nums[lowest_value_index]:
+                lowest_value_index = j
+        nums[i], nums[lowest_value_index] = nums[lowest_value_index], nums[i]
+    return nums
 
-cProfile.run('fib(40)')
-cProfile.run('list_prime_num(5000)')
-cProfile.run('fac(100000)')
+
+# cProfile.run('fib(40)')
+# cProfile.run('list_prime_num(5000)')
+# cProfile.run('fac(100000)')
 cProfile.run('bubble_sort(array_nums(10000))')
+cProfile.run('selection_sort(array_nums(10000))')
