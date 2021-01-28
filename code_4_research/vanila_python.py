@@ -62,8 +62,8 @@ def selection_sort(nums):
     return nums
 
 
-# cProfile.run('fib(40)')
-# cProfile.run('list_prime_num(5000)')
-# cProfile.run('fac(100000)')
+cProfile.run('fib(40)')
+cProfile.run('list_prime_num(5000)')
+cProfile.run('fac(100000)')
 cProfile.run('bubble_sort(array_nums(10000))')
 cProfile.run('selection_sort(array_nums(10000))')
