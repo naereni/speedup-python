@@ -5,16 +5,15 @@
 2. List of Prime numbers(5000)
 3. Factorial(100000)
 4. Bubble sort(10000)
-5. Selection sort(10000)
 
 --------------------------------------------------------
 
 ### **Python + libs:**
 #### table by [me](https://github.com/Naereni-12)
 
-mode                | alg1  | alg2  | alg3  | alg4  | alg5  |
-:----               |:-----:|:-----:|:-----:|:-----:|:-----:|
-vanila              | 58.62 | 0.108 | 3.107 | 7.256 | 3.211 |
+mode                | alg1  | alg2  | alg3  | alg4  | 
+:----               |:-----:|:-----:|:-----:|:-----:|
+vanila              | 58.62 | 0.108 | 3.107 | 7.256 | 
 PyPy3               | 10.09 | 0.032 | 10.82 | 0.239 |
 Cython(primordial)  | 7.562 | 0.063 | 3.329 | 4.577 |
 Cython(refactor)    | 0.341 | 0.005 | 94e-5 | 1.370 |
