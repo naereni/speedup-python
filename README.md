@@ -29,6 +29,6 @@ lang | alg1 | alg2 | alg3 | alg4
 BPM  | 0.341| 0.005| 94e-5| 0.239 
 C++ (GCC Compiler)|  |  |  | 0.178
 C#   |
-golang |  |  |  0.09
+golang |  |  |  | 0.09
 
 ~~*lazy Antony*~~
